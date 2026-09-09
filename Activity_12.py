@@ -45,7 +45,7 @@ elif age >= 75 and age <= 84:
 elif age >= 85 and age <= 99:
 	print("That age is considered as an CENTENARIAN")
 
-elif age >= 100 and age <= 109:
+elif age >= 100 and age <= 150:
 	print("That age is considered as an SUPERCENTENARIAN")
 
 else:
