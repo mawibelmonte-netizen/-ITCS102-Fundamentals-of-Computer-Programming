@@ -7,10 +7,10 @@ psswrd = "Blackranger"
 
 
 print("\n---------------...LOGIN...---------------")
-usrname = input("Put your username: ")
-psswrd = getpass.getpass("Put your password: ")
+username = input("Put your username: ")
+password = getpass.getpass("Put your password: ")
 
-if usrname == usrname and psswrd == psswrd:
+if username == usrname and password == psswrd:
     print("Access Granted")
 else:
     print("Wrong Username or Password")
