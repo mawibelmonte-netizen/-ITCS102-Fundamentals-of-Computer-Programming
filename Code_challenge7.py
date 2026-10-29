@@ -1,8 +1,10 @@
 #nAKAKAHILO PO PALA ITO SIR 
 
-digit = 1 
-for x in range(5):
-    for y in range(x + 1):
-        print(digit,end=" ")
-        digit = digit + 1
+rows = int(input("Input how many rows do you want: "))
+counter = 1
+
+for x in range(0, rows, 1):
+    for y in range(-1, x):
+        print(counter, end=" ")
+        counter = counter + 1
     print()
